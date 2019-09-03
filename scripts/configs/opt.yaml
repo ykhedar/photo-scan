@@ -1,0 +1,3 @@
+accuracy: PS.Accuracy.LowestAccuracy
+preselection: PS.Preselection.ReferencePreselection
+source_cloud: PS.DataSource.DenseCloudData

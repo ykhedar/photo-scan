@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<launch>
+
+    <arg name="output" default="screen"/>
+    <arg name="image_save_loc_topic" default="/image_save_loc_manta"/>
+    <arg name="photo_scan_start_srv" default="/start_photoscan_manta"/>
+    <arg name="photo_scan_start_sub_topic" default="/start_photoscan_manta_info"/>
+    <arg name="ir_photo_scan_start_sub_topic" default="/start_photoscan_thermal_info"/>
+    <arg name="stitched_image_topic" default="/photoscan_manta_stitched_image"/>
+    <arg name="point_cloud_topic" default="/photoscan_pt_cloud"/>
+
+    <node pkg="photo_scan" type="photo_scan_node" name="photo_scan_node" output="$(arg output)">
+        <param name="image_save_loc_topic" type="string" value="$(arg image_save_loc_topic)"/>
+        <param name="photo_scan_start_srv" type="string" value="$(arg photo_scan_start_srv)"/>
+        <param name="photo_scan_start_sub_topic" type="string" value="$(arg photo_scan_start_sub_topic)"/>
+        <param name="ir_photo_scan_start_sub_topic" type="string" value="$(arg ir_photo_scan_start_sub_topic)"/>
+        <param name="stitched_image_topic" type="string" value="$(arg stitched_image_topic)"/>
+        <param name="point_cloud_topic" type="string" value="$(arg point_cloud_topic)"/>
+    </node>
+
+</launch>

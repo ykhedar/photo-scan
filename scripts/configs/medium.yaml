@@ -1,0 +1,5 @@
+accuracy: PS.Accuracy.MediumAccuracy
+preselection: PS.Preselection.ReferencePreselection
+source_cloud: PS.DataSource.DenseCloudData
+keypoint_limit: 40000
+quality: PS.Quality.MediumQuality

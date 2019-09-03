@@ -1,0 +1,4 @@
+accuracy: PS.Accuracy.LowestAccuracy
+keypoint_limit: 20000
+quality: PS.Quality.LowestQuality
+blending: PS.BlendingMode.AverageBlending

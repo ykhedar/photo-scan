@@ -1,0 +1,6 @@
+accuracy: PS.Accuracy.HighAccuracy
+preselection: PS.Preselection.ReferencePreselection
+source_cloud: PS.DataSource.DenseCloudData
+keypoint_limit: 40000
+quality: PS.Quality.UltraQuality
+blending: PS.BlendingMode.AverageBlending

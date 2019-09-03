@@ -1,0 +1,16 @@
+accuracy: 'PS.Accuracy.LowAccuracy'
+preselection: 'PS.Preselection.GenericPreselection'
+filter_mask: True
+keypoint_limit: 20000
+tiepoint_limit: 4000
+quality: 'PS.Quality.LowQuality'
+filter: 'PS.FilterMode.AggressiveFiltering'
+surface_M: 'PS.SurfaceType.HeightField'
+interpolation: 'PS.Interpolation.EnabledInterpolation'
+face_count: 'PS.FaceCount.LowFaceCount'
+source_cloud: 'PS.DataSource.PointCloudData'
+surface_O: 'PS.DataSource.ElevationData'
+blending: 'PS.BlendingMode.MosaicBlending'
+source_data: 'PS.DataSource.ElevationData'
+interval: 1
+no_DenseCloud: False
